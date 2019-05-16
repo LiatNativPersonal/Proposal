@@ -1,0 +1,140 @@
+\begin{thebibliography}{17}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bergsma et~al.(2012)Bergsma, Post, and
+  Yarowsky]{bergsma2012stylometric}
+Shane Bergsma, Matt Post, and David Yarowsky.
+\newblock Stylometric analysis of scientific articles.
+\newblock In \emph{Proceedings of the 2012 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 327--337. Association for Computational Linguistics,
+  2012.
+
+\bibitem[Goldin et~al.(2018)Goldin, Rabinovich, and Wintner]{D18-1395}
+Gili Goldin, Ella Rabinovich, and Shuly Wintner.
+\newblock Native language identification with user generated content.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 3591--3601. Association for Computational
+  Linguistics, 2018.
+\newblock URL \url{http://aclweb.org/anthology/D18-1395}.
+
+\bibitem[Grosjean and Li(2013)]{grosjean2012psycholinguistics}
+Fran\c{c}ois Grosjean and Ping Li.
+\newblock \emph{The Psycholinguistics of Bilingualism}.
+\newblock Wiley-Blackwell, 2013.
+\newblock ISBN 9781118349786.
+
+\bibitem[Heilman et~al.(2007)Heilman, Collins-Thompson, Callan, and
+  Eskenazi]{heilman-etal-2007-combining}
+Michael Heilman, Kevyn Collins-Thompson, Jamie Callan, and Maxine Eskenazi.
+\newblock Combining lexical and grammatical features to improve readability
+  measures for first and second language texts.
+\newblock In \emph{Human Language Technologies 2007: The Conference of the
+  North {A}merican Chapter of the Association for Computational Linguistics;
+  Proceedings of the Main Conference}, pages 460--467, Rochester, New York,
+  April 2007. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/N07-1058}.
+
+\bibitem[Hvelplund(2014)]{hvelplund2014eye}
+Kristian~Tangsgaard Hvelplund.
+\newblock Eye tracking and the translation process: reflections on the analysis
+  and interpretation of eye-tracking data.
+\newblock \emph{MonTI. Monograf{\'\i}as de Traducci{\'o}n e
+  Interpretaci{\'o}n}, pages 201--223, 2014.
+
+\bibitem[Jarvis and Pavlenko(2008)]{jarvis2008crosslinguistic}
+Scott Jarvis and Aneta Pavlenko.
+\newblock \emph{Crosslinguistic influence in language and cognition}.
+\newblock Routledge, 2008.
+
+\bibitem[Kroll et~al.(2014)Kroll, Bobb, and Hoshino]{Kroll_Bobb_Hoshino_2014}
+Judith~F. Kroll, Susan~C. Bobb, and Noriko Hoshino.
+\newblock Two languages in mind: Bilingualism as a tool to investigate
+  language, cognition, and the brain.
+\newblock \emph{Current Directions in Psychological Science}, 23\penalty0
+  (3):\penalty0 159--163, Jun 2014.
+\newblock \doi{10.1177/0963721414528511}.
+
+\bibitem[Kuperman et~al.(2012)Kuperman, Stadthagen-Gonzalez, and
+  Brysbaert]{Kuperman2012}
+Victor Kuperman, Hans Stadthagen-Gonzalez, and Marc Brysbaert.
+\newblock Age-of-acquisition ratings for 30,000 {E}nglish words.
+\newblock \emph{Behavior Research Methods}, 44\penalty0 (4):\penalty0 978--990,
+  Dec 2012.
+\newblock ISSN 1554-3528.
+\newblock \doi{10.3758/s13428-012-0210-4}.
+\newblock URL \url{https://doi.org/10.3758/s13428-012-0210-4}.
+
+\bibitem[Kyle and Crossley(2015)]{kyle2015automatically}
+Kristopher Kyle and Scott~A. Crossley.
+\newblock Automatically assessing lexical sophistication: Indices, tools,
+  findings, and application.
+\newblock \emph{Tesol Quarterly}, 49\penalty0 (4):\penalty0 757--786, 2015.
+
+\bibitem[Lu and Ai(2015)]{LuAi2015}
+Xiaofei Lu and Haiyang Ai.
+\newblock Syntactic complexity in college-level {E}nglish writing: Differences
+  among writers with diverse {L1} backgrounds.
+\newblock \emph{Journal of Second Language Writing}, 29:\penalty0 16--27,
+  September 2015.
+
+\bibitem[Prior(2014)]{Prior2014}
+Anat Prior.
+\newblock Bilingualism: Interactions between languages.
+\newblock In Patricia~J. Brook and Vera Kempe, editors, \emph{Encyclopedia of
+  Language Development}. Sage Publications, 2014.
+\newblock \doi{DOI: http://dx.doi.org/10.4135/9781483346441}.
+
+\bibitem[Prior et~al.(2006)Prior, MacWhinney, and Kroll]{prior:2006a}
+Anat Prior, Brian MacWhinney, and Judith~F. Kroll.
+\newblock Does ``querer'' translate as ``to love'' or ``to want''? effects of
+  lexical properties and bilingual experience in negotiating translation
+  ambiguity.
+\newblock Poster presented at the Fifth International Conference on the Mental
+  Lexicon, October 2006.
+
+\bibitem[Prior et~al.(2013)Prior, Kroll, and MacWhinney]{BIL:8852637}
+Anat Prior, Judith~F. Kroll, and Brian MacWhinney.
+\newblock Translation ambiguity but not word class predicts translation
+  performance.
+\newblock \emph{Bilingualism: Language and Cognition}, 16:\penalty0 458--474, 4
+  2013.
+\newblock ISSN 1469-1841.
+\newblock \doi{10.1017/S1366728912000272}.
+
+\bibitem[Rabinovich et~al.(2016)Rabinovich, Nisioi, Ordan, and
+  Wintner]{DBLP:conf/acl/RabinovichNOW16}
+Ella Rabinovich, Sergiu Nisioi, Noam Ordan, and Shuly Wintner.
+\newblock On the similarities between native, non-native and translated texts.
+\newblock In \emph{Proceedings of the 54th Annual Meeting of the Association
+  for Computational Linguistics, {ACL} 2016}, pages 1870--1881, August 2016.
+\newblock URL \url{http://aclweb.org/anthology/P/P16/P16-1176.pdf}.
+
+\bibitem[Rabinovich et~al.(2018)Rabinovich, Tsvetkov, and Wintner]{TACL1403}
+Ella Rabinovich, Yulia Tsvetkov, and Shuly Wintner.
+\newblock Native language cognate effects on second language lexical choice.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  6:\penalty0 329--342, 2018.
+\newblock ISSN 2307-387X.
+\newblock URL \url{https://transacl.org/ojs/index.php/tacl/article/view/1403}.
+
+\bibitem[Shlesinger(2003)]{schlesinger:2003}
+Miriam Shlesinger.
+\newblock Effects of presentation rate on working memory in simultaneous
+  interpreting.
+\newblock \emph{The Interpreters' Newsletter}, 12:\penalty0 37--49, 2003.
+\newblock URL \url{http://hdl.handle.net/10077/2470}.
+
+\bibitem[Tomokiyo and Jones(2001)]{tomokiyo2001you}
+Laura~Mayfield Tomokiyo and Rosie Jones.
+\newblock You're not from 'round here, are you?: naive {B}ayes detection of
+  non-native utterance text.
+\newblock In \emph{Proceedings of the second meeting of the North American
+  Chapter of the Association for Computational Linguistics}, pages 1--8.
+  Association for Computational Linguistics, 2001.
+
+\end{thebibliography}

@@ -7,8 +7,8 @@
 
 \newcommand{\note}[1]{\textit{\small\color{magenta}{#1}}}
 
-\title{Finding Correlations between L2 Proficiency and Use of Cognates\\[.5em]A Computational Approach}
-\author{Liat Nativ}
+\title{Does Proficiency impact the use of cognates in L2?\\[.5em]A Computational Approach}
+\author{Liat Nativ} 
 \date{}
 
 \begin{document}
@@ -22,8 +22,7 @@ The language of non-native speakers, even highly advanced ones, is different fro
 Our hypothesis in this work is that transfer effects, as reflected by lexical choice, are correlated with the speaker's L2 proficiency. We will employ corpus-based computational methods to investigate this hypothesis.
 
 While the main expected contribution of this work is theoretical, there is also practical motivation for such investigation. By gaining insights into the differences in the language produced by non-native speakers and their correlation with L2 fluency, we can contribute to creating better personalized, L1-based, natural language processing (NLP) solutions. 
-A motivation for such personalization can be found, for example, in the work of Heilman et al., 
-\note{fix reference} 
+A motivation for such personalization can be found, for example, in the work of \cite{heilman-etal-2007-combining},
 who suggest that since the process of language 
 acquisition inherently differs for first and second-language learners (e.g., grammatical structures are acquired in a much slower rate by second language learners), 
 readability assessment should be approached differently for these two populations. 
@@ -37,7 +36,6 @@ is fundamental for creating ``personalized'' NLP applications, based on the user
 Our main goal in this work is  to show a correlation between a non-native author's choice of cognates and his or her proficiency level in L2 (here, always English). 
 We hypothesize that higher proficiency authors will tend to be less influenced by their L1, and therefore use cognates in a manner more similar to that of native speakers.
 Usually, this type of study is conducted with a small group of human participants, on which detailed information is collected.  Such psycholinguistic studies are usually focused on a small set of words, and participants are requested to make lexical choices in response to a ready-made questioning \citep{prior:2006a,BIL:8852637}.
-\note{Anat, please confirm}
 We aim to investigate how lexical choices reflected by the use of cognates are correlated to L2 fluency on a larger scale, focusing on dozens of cognates that occur in the spontaneous language of a large group (hundreds) of non-native authors with a variety of L1s.
 
 \section{Previous Work}
@@ -48,8 +46,8 @@ Focusing on lexical choices, several authors have shown the preference of biling
 \note{fix refs}
 \citet{TACL1403} were able to reconstruct the phylogenetic language tree of the Indo-European language family, based solely on the tendency of non-natives to favor cognates in their native language.
 
-The focus of this work is the correlation between L2 proficiency and cognate facilitation. Proficiency levels are estimated based on studies dealing with lexical, psycholinguistic and syntactic measures (Kuperman et al., 2012; Lu and Ai, 2015; Kyle and Crossley, 2015).
-\note{fix refs}
+The focus of this work is the correlation between L2 proficiency and cognate facilitation. Proficiency levels are estimated based on studies dealing with lexical, psycholinguistic and syntactic measures \citep{Kuperman2012,LuAi2015,kyle2015automatically}.
+
 Following the psycholinguistic nature of our hypothesis, most related studies are conducted in an artificial environment, based on a limited number of participants, native languages, and target words. The setting for our work is different: we are using computational analysis to conduct a corpus-based study based on spontaneous (written) language productions by over~1600 speakers and~700 target words. Several corpus-based studies focused on investigating second language from various perspectives and with different tasks in mind (Tomokiyo and Jones, 2001; Bergsma et al., 2012; Koppel et al.,2005; Tetreault et al.,2013; Tsvetkov et al., 2013; Malmasi et al., 2017 ;Berzak et al., 2015 - Need to figure out what to mention/omit here). 
 \note{fix refs}
 \note{Unclear how these works are related to yours: this section is intended to \emph{situate} your work in the context of existing research.}
@@ -125,26 +123,3 @@ Once the benchmark is set for a certain synonym set, the lexical choice of each 
 \end{document}
 
 References
-
-
-Miriam Shlesinger. Effects of presentation rate on working memory in simultaneous interpreting. The Interpreters’ Newsletter, 12:37–49, 2003. URL http: //hdl.handle.net/10077/2470. 
-
-Anat Prior. Bilingualism: Interactions between languages. In Patricia J. Brook and Vera Kempe, editors, Encyclopedia of Language Development. Sage Publications, 2014. URL http://dx.doi.org/10. 4135/9781483346441. 
-
-Balota, D.A., Yap, M.J., Cortese, M.J., Hutchison, K.A., Kessler, B., Loftis, B., Neely, J.H., Nelson, D.L., Simpson, G.B., & Treiman, R. (2007). The English Lexicon Project. Behavior Research Methods, 39, 445-459.
-
-Judith F.Kroll,Susan C.Bobb,and Noriko Hoshino. Two languages in mind: Bilingualism as a tool to investigate language, cognition, and the brain. Current Directions in Psychological Science,23(3):159–163,Jun 2014. doi: 10.1177/0963721414528511
-
-Scott Jarvis and Aneta Pavlenko. Crosslinguistic inﬂuence in language and cognition. Routledge, 2008. 
-
-Shane Bergsma, Matt Post, and David Yarowsky. Stylometric analysis of scientiﬁc articles. In Proceedings of the 2012 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 327–337. Association for Computational Linguistics, 2012.
-
-Ella Rabinovich, Sergiu Nisioi, Noam Ordan, and Shuly Wintner. On the similarities between native, non-native and translated texts. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics, ACL 2016, pages 1870–1881, August 2016. URL http://aclweb. org/anthology/P/P16/P16-1176.pdf.
-
-Laura Mayﬁeld Tomokiyo and Rosie Jones. You’re not from ’round here, are you?: naive Bayes detection of non-native utterance text. In Proceedings of the second meeting of the North American Chapter of the Association for Computational Linguistics, pages 1–8. Association for Computational Linguistics, 2001.
-
-Gili Goldin, Ella Rabinovich and Shuly Wintner. Native Language Identification with User Generated Content. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 3591–3601 Brussels, Belgium, October 31 - November 4. Association for Computational Linguistics, 2018  
-
-To complete:
-Ella 2018
-Kupernam 2012
