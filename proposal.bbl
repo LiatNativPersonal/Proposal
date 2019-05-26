@@ -1,9 +1,20 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{24}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Balota et~al.(2007)Balota, Yap, Hutchison, Cortese, Kessler, Loftis,
+  Neely, Nelson, Simpson, and Treiman]{Balota2007}
+David~A. Balota, Melvin~J. Yap, Keith~A. Hutchison, Michael~J. Cortese, Brett
+  Kessler, Bjorn Loftis, James~H. Neely, Douglas~L. Nelson, Greg~B. Simpson,
+  and Rebecca Treiman.
+\newblock The english lexicon project.
+\newblock \emph{Behavior Research Methods}, 39\penalty0 (3):\penalty0 445--459,
+  Aug 2007.
+\newblock ISSN 1554-3528.
+\newblock \doi{10.3758/BF03193014}.
 
 \bibitem[Bergsma et~al.(2012)Bergsma, Post, and
   Yarowsky]{bergsma2012stylometric}
@@ -13,6 +24,20 @@ Shane Bergsma, Matt Post, and David Yarowsky.
   Chapter of the Association for Computational Linguistics: Human Language
   Technologies}, pages 327--337. Association for Computational Linguistics,
   2012.
+
+\bibitem[Cop et~al.(2017)Cop, Dirix, Van~Assche, Drieghe, and
+  Duyck]{cop2017reading}
+Uschi Cop, Nicolas Dirix, Eva Van~Assche, Denis Drieghe, and Wouter Duyck.
+\newblock Reading a book in one or two languages? {An} eye movement study of
+  cognate facilitation in {L1} and {L2} reading.
+\newblock \emph{Bilingualism: Language and Cognition}, 20\penalty0
+  (4):\penalty0 747--769, 2017.
+
+\bibitem[de~Groot(1992)]{de1992determinants}
+Annette~M. de~Groot.
+\newblock Determinants of word translation.
+\newblock \emph{Journal of Experimental Psychology: Learning, Memory, and
+  Cognition}, 18\penalty0 (5):\penalty0 1001, 1992.
 
 \bibitem[Goldin et~al.(2018)Goldin, Rabinovich, and Wintner]{D18-1395}
 Gili Goldin, Ella Rabinovich, and Shuly Wintner.
@@ -75,6 +100,20 @@ Kristopher Kyle and Scott~A. Crossley.
   findings, and application.
 \newblock \emph{Tesol Quarterly}, 49\penalty0 (4):\penalty0 757--786, 2015.
 
+\bibitem[Libben and Titone(2009)]{libben2009bilingual}
+Maya~R. Libben and Debra~A. Titone.
+\newblock Bilingual lexical access in context: evidence from eye movements
+  during reading.
+\newblock \emph{Journal of Experimental Psychology: Learning, Memory, and
+  Cognition}, 35\penalty0 (2):\penalty0 381, 2009.
+
+\bibitem[Lu(2010)]{Lu2010-Automatic}
+Xiaofei Lu.
+\newblock Automatic analysis of syntactic complexity in second language
+  writing.
+\newblock \emph{International Journal of Corpus Linguistics}, 15\penalty0
+  (4):\penalty0 474--496, 2010.
+
 \bibitem[Lu and Ai(2015)]{LuAi2015}
 Xiaofei Lu and Haiyang Ai.
 \newblock Syntactic complexity in college-level {E}nglish writing: Differences
@@ -97,6 +136,13 @@ Anat Prior, Brian MacWhinney, and Judith~F. Kroll.
 \newblock Poster presented at the Fifth International Conference on the Mental
   Lexicon, October 2006.
 
+\bibitem[Prior et~al.(2011)Prior, Wintner, Macwhinney, and
+  Lavie]{prior2011translation}
+Anat Prior, Shuly Wintner, Brian Macwhinney, and Alon Lavie.
+\newblock Translation ambiguity in and out of context.
+\newblock \emph{Applied Psycholinguistics}, 32\penalty0 (1):\penalty0 93--111,
+  2011.
+
 \bibitem[Prior et~al.(2013)Prior, Kroll, and MacWhinney]{BIL:8852637}
 Anat Prior, Judith~F. Kroll, and Brian MacWhinney.
 \newblock Translation ambiguity but not word class predicts translation
@@ -105,6 +151,16 @@ Anat Prior, Judith~F. Kroll, and Brian MacWhinney.
   2013.
 \newblock ISSN 1469-1841.
 \newblock \doi{10.1017/S1366728912000272}.
+
+\bibitem[Prior et~al.(2017)Prior, Degani, Awawdy, Yassin, and
+  Korem]{Prior-etal:2017}
+Anat Prior, Tamar Degani, Sehrab Awawdy, Rana Yassin, and Nachshon Korem.
+\newblock Is susceptibility to cross-language interference domain specific?
+\newblock \emph{Cognition}, 165:\penalty0 10 -- 25, 2017.
+\newblock ISSN 0010-0277.
+\newblock \doi{https://doi.org/10.1016/j.cognition.2017.04.006}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0010027717301002}.
 
 \bibitem[Rabinovich et~al.(2016)Rabinovich, Nisioi, Ordan, and
   Wintner]{DBLP:conf/acl/RabinovichNOW16}

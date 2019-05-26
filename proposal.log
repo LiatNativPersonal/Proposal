@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.15)  16 MAY 2019 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.15)  26 MAY 2019 14:54
 entering extended mode
 **./proposal.tex
 (proposal.tex
@@ -98,72 +98,90 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 
 {C:/Users/liatn/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
 
 [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
  [3] (proposal.bbl
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 23.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 48.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 1033) in paragraph at lines 18--24
+Underfull \hbox (badness 1033) in paragraph at lines 43--49
 []\OT1/ptm/m/n/10.95 Gili Goldin, Ella Ra-bi-novich, and Shuly Wint-ner.  Na-ti
 ve lan-guage iden-ti-fi-ca-tion with user gen-
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 18--24
+Underfull \hbox (badness 1874) in paragraph at lines 43--49
 \OT1/ptm/m/it/10.95 guage Pro-cess-ing\OT1/ptm/m/n/10.95 , pages 3591--3601. As
 -so-ci-a-tion for Com-pu-ta-tional Lin-guis-tics, 2018.  URL
  []
 
-
-Underfull \hbox (badness 2426) in paragraph at lines 33--41
+[4]
+Underfull \hbox (badness 2426) in paragraph at lines 58--66
 \OT1/ptm/m/n/10.95 i-cal and gram-mat-i-cal fea-tures to im-prove read-abil-ity
  mea-sures for first and sec-ond lan-guage
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 33--41
+Underfull \hbox (badness 1147) in paragraph at lines 58--66
 \OT1/ptm/m/n/10.95 460--467, Rochester, New York, April 2007. As-so-ci-a-tion f
 or Com-pu-ta-tional Lin-guis-tics.  URL
  []
 
-[4]
-Underfull \hbox (badness 3058) in paragraph at lines 86--91
+
+Underfull \hbox (badness 3058) in paragraph at lines 125--130
 []\OT1/ptm/m/n/10.95 Anat Prior.  Bilin-gual-ism: In-ter-ac-tions be-tween lan-
 guages.  In Pa-tri-cia J. Brook and Vera
  []
 
+[5]
+Underfull \hbox (badness 4060) in paragraph at lines 157--164
+[]\OT1/ptm/m/n/10.95 Anat Prior, Tamar De-gani, Sehrab Awawdy, Rana Yassin, and
+ Nachshon Ko-rem.  Is sus-
+ []
 
-Underfull \hbox (badness 1308) in paragraph at lines 111--116
+
+Underfull \hbox (badness 7740) in paragraph at lines 157--164
+\OT1/ptm/m/n/10.95 cep-ti-bil-ity to cross-language in-ter-fer-ence do-main spe
+-cific?  \OT1/ptm/m/it/10.95 Cog-ni-tion\OT1/ptm/m/n/10.95 , 165:10 -- 25,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--164
+\OT1/ptm/m/n/10.95 2017.  ISSN 0010-0277.  doi: https://doi.org/10.1016/j.cogni
+tion.2017.04.006.  URL
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 167--172
 \OT1/ptm/m/n/10.95 tive, non-native and trans-lated texts.  In \OT1/ptm/m/it/10
 .95 Pro-ceed-ings of the 54th An-nual Meet-ing of the As-
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 111--116
+Underfull \hbox (badness 2384) in paragraph at lines 167--172
 \OT1/ptm/m/it/10.95 so-ci-a-tion for Com-pu-ta-tional Lin-guis-tics, ACL 2016\O
 T1/ptm/m/n/10.95 , pages 1870--1881, Au-gust 2016.  URL
  []
 
-[5]) [6] (proposal.aux) ) 
+) [6] (proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 1379 strings out of 492895
- 18302 string characters out of 3133479
- 82133 words of memory out of 3000000
- 5318 multiletter control sequences out of 15000+200000
- 22284 words of font info for 45 fonts, out of 3000000 for 9000
+ 1398 strings out of 492895
+ 18786 string characters out of 3133479
+ 82581 words of memory out of 3000000
+ 5338 multiletter control sequences out of 15000+200000
+ 20699 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 21i,6n,24p,757b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.e
-nc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on proposal.pdf (6 pages, 82308 bytes).
+ 21i,6n,24p,645b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
+<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on proposal.pdf (6 pages, 83897 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
