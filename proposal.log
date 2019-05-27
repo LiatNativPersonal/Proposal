@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.15)  26 MAY 2019 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.15)  27 MAY 2019 10:28
 entering extended mode
 **./proposal.tex
 (proposal.tex
@@ -103,9 +103,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
- [3] (proposal.bbl
+ [3] (proposal.bbl [4]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 48.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 Underfull \hbox (badness 1033) in paragraph at lines 43--49
@@ -119,7 +120,7 @@ Underfull \hbox (badness 1874) in paragraph at lines 43--49
 -so-ci-a-tion for Com-pu-ta-tional Lin-guis-tics, 2018.  URL
  []
 
-[4]
+
 Underfull \hbox (badness 2426) in paragraph at lines 58--66
 \OT1/ptm/m/n/10.95 i-cal and gram-mat-i-cal fea-tures to im-prove read-abil-ity
  mea-sures for first and sec-ond lan-guage
@@ -171,17 +172,17 @@ T1/ptm/m/n/10.95 , pages 1870--1881, Au-gust 2016.  URL
 Here is how much of TeX's memory you used:
  1398 strings out of 492895
  18786 string characters out of 3133479
- 82581 words of memory out of 3000000
+ 83601 words of memory out of 3000000
  5338 multiletter control sequences out of 15000+200000
  20699 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 21i,6n,24p,645b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 21i,6n,24p,774b,252s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
 <C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on proposal.pdf (6 pages, 83897 bytes).
+Output written on proposal.pdf (6 pages, 83800 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

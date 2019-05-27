@@ -8,7 +8,7 @@
 \newcommand{\note}[1]{\textit{\small\color{magenta}{#1}}}
 
 \title{Does Proficiency impact the use of cognates in L2?\\[.5em]A Computational Approach}
-\author{Liat Nativ \and Advisor: Prof.\ Shuly Wintner} 
+\author{Liat Nativ \and Advisors: Prof.\ Shuly Wintner and Dr.\ Anat Prior} 
 \date{}
 
 \begin{document}
@@ -99,13 +99,13 @@ These 14 measures are calculated on a random sample of~1000 sentences for each n
 
 \subsection{Methodology}
 
-\note{This is still too vague. Recall the research hypothesis and try to first explain, in simple non-technical terms, how your planned work is going to address and answer it. In particular, say something about Romance vs.\ Germanic, it is not at all clear from the current presentation.}
-
-Cognates are, by definition - language-specific. As shown by \citet{TACL1403}, words that have  cognates in the user L1 tend to be overrepresented in his or her L2 productions. As explained in the dataset section above, this work focuses on 2 groups of non-native speakrs whose native language is either Romance or Germanic. Following the hypothesis, we expect to see higher frequencies of cognates from Germanic/Romance origin in the Germanic/Romance users group posts respectively, decreasing in correlation with the level of English proficiency, up to the point of similarity to frequency levels of native speakrs.
+Cognates, by definition - are language-specific. As shown by \citet{TACL1403}, words that have  cognates in the non-natve user's L1 tend to be overrepresented in his or her L2 productions. As explained in the dataset section above, this work focuses on 2 groups of non-native speakrs whose native language's origin is either Romance or Germanic. Following the hypothesis, we expect to see higher frequencies of cognates from Germanic/Romance origin in the Germanic/Romance users group posts respectively, decreasing in correlation with the level of English proficiency, down to the point of frequencies similar to those of native speakrs.
 To model the use of cognates and to examine the tendency towards Germanic or Romance cognates, we computed a normalized count for each user and for each synonym set. 
-For example, if for a synonym set with one Germanic and one Romance word the count for a specific user was 15 for the Germanic word and 60 for the Romance word, than the normalized count will be 0.2 and 0.8 for Germanic and Romance cognates, respectively.
-For exploring the correlation between the use of cognates and the level of English proficiency, a benchmark of ``good'' English will be calculated based on the lexical selections made by the native authors group. The benchmark is defined as the average of the Germanic/Romance tendency---represented by the normalized count---across all the native authors. This benchmark is calculated for each synonym set independently.
-Once the benchmark is set for a certain synonym set, the lexical choice of each non-native author can be represented by the directed (-/+) distance from that benchmark. The direction is defined arbitrarily to be positive for Germanic and negative for Romance over-representation, respectively.  The deviation from the benchmark as a function of the user proficiency level will provide an indication of the validity of the research hypothesis.
+For example, for the synonym set \emph  thankful (from Germanic origin) and \emph grateful (from Romance Origin)   the count for a  user from Germany (Aunvilgod) was 8 for the Germanic word and 3 for the Romance word, then the normalized count will be ~0.727 and ~0.273 for Germanic and Romance cognates, respectively.
+For exploring the correlation between the use of cognates and the level of English proficiency, a benchmark of ``good'' English will be calculated based on the lexical selections made by the native authors group. The benchmark is defined as the average of the Germanic/Romance tendency---represented by the normalized count---across all the native authors. This benchmark is calculated for each synonym set independently. 
+Once the benchmark is set for a certain synonym set, the lexical choice of each non-native author can be represented by the directed (-/+) distance from that benchmark. The direction is defined arbitrarily to be positive for Germanic and negative for Romance over-representation, respectively.  The deviation from the benchmark as a function of the user proficiency level will provide an indication of the validity of the research hypothesis. 
+For example, for the synonym set \emph mindless (from Germanic origin) and \emph senseless (from Romance Origin), native speakers average preference towards \emph mindless (germanic word) is ~0.7098 (calculated ad the average normalized count over all native speakers). This is number is the benchmark from which the non-native speaker deviation will be calculated. And so for a single non-native user from Denmark (dalsgaard) who's germanic normalized count for the same synonym set is ~0.889, the deviation from the threshold is 0.889 -0.7098 = 0.1792. For a different user, from France (CH4F) who used the germanic and romance word equaly - i.e. normalized count = 0.5, the diversion from the threshond will be 0.5 - 0.7098  = -0.2098.
+
 
 
 \section{Preliminary Results}
