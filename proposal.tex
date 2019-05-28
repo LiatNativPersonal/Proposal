@@ -72,32 +72,21 @@ We use several commonly accepted measures for assessing the proficiency level of
 
 \subsubsection{Lexical and psycholinguistic measures}
 
-Lexical measures include lexical richness, defined as type-token ratio (TTR); average age-of-acquisition (in years) of lexical items \citep{Kuperman2012} and mean word rank, where the rank was retrieved from a list of the entire Reddit dataset vocabulary, sorted by word frequency in the corpus \citep{TACL1403}.  In addition, we also used the psycholinguistic measure of mean naming reaction time (in Milliseconds), based on a list generated from the English Lexicon Project \citep{Balota2007}. These measures were calculated on a random sample of~10000 tokens for each author.
+Lexical measures include lexical richness, defined as type-token ratio (TTR); average age-of-acquisition (in years) of lexical items \citep{Kuperman2012} and mean word rank, where the rank was retrieved from a list of the entire Reddit dataset vocabulary, sorted by word frequency in the corpus \citep{TACL1403}.  In addition, we also examined the psycholinguistic measure of mean naming reaction time (in Milliseconds), based on a list generated from the English Lexicon Project \citep{Balota2007}. These measures were calculated on a random sample of~10000 tokens for each author. As L2-Reddit is a based on highly fluent authors, similar scores were obtained for natives and non-natives for most of the measures. However, TTR showed statistically significant differences (p-value $<0.05$) between the 2 groups and will be used for analyzing the results, as described in the methodology section below.
 
 
 \subsubsection{Syntactic Measures }
 
-Syntactic complexity was assessed through 14 different syntactic measures, using the \emph{L2 Syntactic Complexity Analyzer} \citep{Lu2010-Automatic}: \note{leave only the ones you end up using}
+Syntactic complexity was assessed through 5 different syntactic measures, using the \emph{L2 Syntactic Complexity Analyzer} \citep{Lu2010-Automatic}:
 
 \begin{description}
 \item[MLS] mean length of sentence (\# of words/\# of sentences), 
-\item[MLT] mean length of T-unit (\# of words/\# of T-units). T-unit is the minimal terminable unit of language that can be considered a grammatical sentence 
-\item[MLC] mean length of clause (\# of words/\# of clauses)
-\item[C/T] clauses per T-unit (\# of clauses/\# of T-unit)
-\item[CT/T] complex T-unit (containing a dependent clause) to all T-units ratio (\# of complex T-units/\# of T-units )
-\item[DC/C] dependent clauses per clause
-\item[DC/T] dependent clauses per T-unit (\# of dependent clauses/\# of clauses)
-\item[CP/C] coordinate phrases per clause (\# of coordinate phrases/\# of clauses )
-\item[CP/T] coordinate phrases per T-unit (\# of dependent clauses/\# of T-units)
+\item[CT/T] complex T-unit (containing a dependent clause) to all T-units ratio (\# of complex T-units/\# of T-units)
 \item[T/S] T-units per sentence (\# of T-units/\# of sentences)
-\item[CN/C] complex nominals per clause (\# of complex nominals/\# of clauses)
-\item[CN/T]  complex nominals per T-unit (\# of complex nominals/\# of T-units)
-\item[VP/T] verb phrases per T-unit (\# of verb phrases/\# of T-units)
 \item[C/S] clauses per sentence (\# of clauses/\# of sentences)
 \end{description}
 
-These 14 measures are calculated on a random sample of~1000 sentences for each native and non-native author. 
-[This list will be shorter based on the measures we’ll decide that are meaningful]
+These 5 measures are calculated on a random sample of~1000 sentences for each native and non-native author, and differences in scores between natives and non natives found to be statistically significant (p-value $<0.05$).
 
 
 \subsection{Methodology}
@@ -111,9 +100,11 @@ For exploring the correlation between the use of cognates and the level of Engli
 
 Once the benchmark is set for a certain synonym set, the lexical choice of each non-native author can be represented by the directed (-/+) distance from that benchmark. The direction is defined arbitrarily to be positive for Germanic and negative for Romance over-representation.  The deviation from the benchmark as a function of the user proficiency level will provide an indication of the validity of the research hypothesis. 
 
-For example, for the synonym set \textnl{\{mindless,senseless\}} (again, the former is Germanic and the latter Romance), native speakers average preference towards \textnl{mindless} is~0.7098; this number is the benchmark from which the non-native speaker deviation will be calculated. For a specific non-native author from Denmark (\textit{dalsgaard}) whose Germanic normalized count for the same synonym set is~0.889, the deviation from the threshold is $0.889-0.7098 = 0.1792$. For a different author from France (\textit{CH4F}) who used the Germanic and Romance word equally (i.e., the normalized count is 0.5), the diversion from the threshold will be $0.5 - 0.7098  = -0.2098$.
+For example, for the synonym set \textnl{\{mindless,senseless\}} (again, the former is Germanic and the latter Romance), native speakers average preference towards \textnl{mindless} is~0.7098; this number is the benchmark from which the non-native speaker deviation will be calculated. For a specific non-native author from Denmark (\textit{dalsgaard}) whose Germanic normalized count for the same synonym set is~0.889, the deviation from the threshold is $0.889-0.7098 = 0.1792$. For a different author from France (\textit{CH4F}) who used the Germanic and Romance word equally (i.e., the normalized count is 0.5), the diversion from the threshold will be $0.5 - 0.7098  = -0.2098$. 
+If the hypothesis holds, we expect to see positive distances from the calculated threshold for users whose L1 is of Germanic origin (indicating overuse of the Germanic word(s) in comparison to native speakers), and negative distances for users whose L1 is of Romance Origin. For both non-native groups the absolute distance values should decrease as the level of English proficiency rises. 
 
-\note{And then what? What will you do with these distances? You don't have to know all the details, but provide at least the general idea.}
+This analysis is strongly affected by the specific synonym set and proficiency measure and should be interpreted considering these choices. Different frequency levles might affect the analysis - for example the synonym set \textnl{\{affluence, richness\}} occours only 500 times in non-native speakers posts, while \textnl{\{attend, hang\}} has over $30,000$ occurrences, with very different frequncy level for each member of the synonym set - $8026$ occurrences of \textnl{attend} vs. $22,917$ occurrences of \textnl{hang} - another factor that might influence the analysis. 
+
 
 \section{Preliminary Results}
 
