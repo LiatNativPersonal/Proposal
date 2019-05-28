@@ -5,6 +5,8 @@
 \usepackage[round]{natbib}
 \usepackage{color}
 
+\newcommand{\textnl}{\textsl}
+
 \newcommand{\note}[1]{\textit{\small\color{magenta}{#1}}}
 
 \title{Does Proficiency impact the use of cognates in L2?\\[.5em]A Computational Approach}
@@ -35,8 +37,9 @@ is fundamental for creating ``personalized'' NLP applications, based on the user
 \emph{Cognates} are words in different languages that have  similar forms and similar meanings due to a common ancestor in some protolanguage. Psycholinguistic research has shown that non-native speakers tend to overuse words that have cognates in their L1.  This tendency has also been established recently on a large scale in a corpus-based computational work \citep{TACL1403}.
 Our main goal in the current work is  to show a correlation between a non-native author's choice of cognates and his or her proficiency level in L2 (here, always English). 
 We hypothesize that higher proficiency authors will tend to be less influenced by their L1, and therefore use cognates in a manner more similar to that of native speakers.
-Usually, this type of study is conducted with a small group of human participants, on which detailed information is collected.  Such psycholinguistic studies are usually focused on a small set of words, and participants are requested to make lexical choices in response to a ready-made questioning \citep{prior:2006a,BIL:8852637}.
-We aim to investigate how lexical choices reflected by the use of cognates are correlated to L2 fluency on a larger scale, focusing on dozens of cognates that occur in the spontaneous language of a large group (hundreds) of non-native authors with a variety of L1s.
+
+Usually, this type of study is conducted with a small group of human participants, on which detailed information is collected.  Such psycholinguistic studies are usually focused on a small set of words, and participants are requested to make lexical choices in response to ready-made questioning \citep{prior:2006a,BIL:8852637}.
+We aim to investigate how lexical choices reflected by the use of cognates are correlated to L2 fluency on a much larger scale, investigating dozens of cognates that occur in the spontaneous language of hundreds of non-native authors with a variety of L1s.
 
 \section{Previous Work}
 
@@ -45,10 +48,10 @@ Traces of the mother tongue are likely to be found in the non-native speaker's s
 Focusing on lexical choices, several authors have shown the preference of bilingual speakers towards cognates, for example in tasks of translation and via eye tracking while reading  \citep{de1992determinants, prior2011translation, libben2009bilingual,cop2017reading}. 
 \citet{TACL1403} were able to reconstruct the phylogenetic language tree of the Indo-European language family, based solely on the tendency of non-natives to favor cognates in their native language.
 
-The focus of this work is the correlation between L2 proficiency and cognate facilitation, expecting to observe a lesser transfer effect as the level of proficientcy increases. One motivation for the hypothesis can be found in the work of \cite{Prior-etal:2017}, showing reduced  cross language interference with higher vocabulary.
- Proficiency levels are estimated based on studies dealing with lexical, psycholinguistic and syntactic measures \citep{Kuperman2012,LuAi2015,kyle2015automatically}.
+The focus of our work is the correlation between L2 proficiency and cognate facilitation: we expect to observe a lesser transfer effect as the level of proficiency increases. One motivation for the hypothesis can be found in the work of \cite{Prior-etal:2017}, who showed reduced  cross language interference with higher vocabulary.
+We estimate proficiency levels based on studies dealing with lexical, psycholinguistic and syntactic measures \citep{Kuperman2012,LuAi2015,kyle2015automatically}.
 
-Following the psycholinguistic nature of our hypothesis, most related studies are conducted in an artificial environment, based on a limited number of participants, native languages, and target words. The setting for our work is different: we are using computational analysis to conduct a corpus-based study based on spontaneous (written) language productions by over~1600 speakers and~700 target words. Our work is inspired to a great extent by \citet{TACL1403}.
+Due to the psycholinguistic nature of our hypothesis, most related studies are conducted in an artificial environment, based on a limited number of participants, native languages, and target words. In contrast, we will use  computational analysis to conduct a corpus-based study based on spontaneous (written) language productions by over~1600 speakers and~700 target words. Our work is inspired to a great extent by \citet{TACL1403}.
 
 
 \section{Research Plan}
@@ -56,12 +59,12 @@ Following the psycholinguistic nature of our hypothesis, most related studies ar
 \subsection{Dataset}
 \label{sec:dataset}
 
-The dataset for this work is based on a large corpus of non-native English: the \emph{L2-Reddit corpus}, released by \citet{TACL1403}. It comprises of social media posts by highly fluent authors who indicate their country as a metadata attribute.  We view the country information as an accurate, albeit not perfect, proxy for the native language of the author \citep{D18-1395}.  
+The dataset for this work is based on a large corpus of non-native English: the \emph{L2-Reddit corpus}, released by \citet{TACL1403}. It comprises social media posts by highly fluent authors who indicate their country as a metadata attribute.  We view the country information as an accurate, albeit not perfect, proxy for the native language of the author \citep{D18-1395}.  
 \citet{TACL1403} carefully created  a culture-independent focus set of over~1000 words, forming~541 synonym sets that may reflect cognates in some L1s, but not all of them, and are hence used differently by authors with different linguistic backgrounds.
 We further reduced the size of the focus set to about~740 words forming~288 synonym sets, by investigating the etymology of each cognate, leaving only synonym sets that include at least one word of Germanic origin, and at least one of Romance Origin.
 The final dataset for this work was extracted from the L2-Reddit corpus and consists of~960 non-native authors whose native language is either Romance or Germanic, who used cognates from the focus set at least~1000 times in their posts.
 The non-native group consists of two subgroups of equal size:  authors whose L1 is Germanic and those whose L1 is Romance. 
-A control group of approximately the same size of English native authors from 5 different countries (US, UK, New-Zealand, Australia and Ireland), with a similar distribution of cognates from the focus set as the non-native group, was extracted to complete the picture. 
+A control group of approximately the same size of English native authors from 5 different countries (US, UK, New Zealand, Australia and Ireland), with a similar distribution of cognates from the focus set as the non-native group, was extracted to complete the picture. 
 
 \subsection{English proficiency measures}
 
@@ -69,7 +72,7 @@ We use several commonly accepted measures for assessing the proficiency level of
 
 \subsubsection{Lexical and psycholinguistic measures}
 
-Lexical measures include lexical richness, defined as type-token ratio (TTR); average age-of-acquisition (in years) of lexical items \citep{Kuperman2012} and mean word rank, where the rank was retrieved from a list of the entire Reddit dataset vocabulary, sorted by word frequency in the corpus \citep{TACL1403}.  In addition, we also used the psycholinguistic measure of mean naming reaction time (in Milliseconds), based on a list generated from the English Lexicon Project \citep{Balota2007}. These measures were calculated on a random sample of~10000 tokens for each user.
+Lexical measures include lexical richness, defined as type-token ratio (TTR); average age-of-acquisition (in years) of lexical items \citep{Kuperman2012} and mean word rank, where the rank was retrieved from a list of the entire Reddit dataset vocabulary, sorted by word frequency in the corpus \citep{TACL1403}.  In addition, we also used the psycholinguistic measure of mean naming reaction time (in Milliseconds), based on a list generated from the English Lexicon Project \citep{Balota2007}. These measures were calculated on a random sample of~10000 tokens for each author.
 
 
 \subsubsection{Syntactic Measures }
@@ -99,14 +102,18 @@ These 14 measures are calculated on a random sample of~1000 sentences for each n
 
 \subsection{Methodology}
 
-Cognates, by definition - are language-specific. As shown by \citet{TACL1403}, words that have  cognates in the non-natve user's L1 tend to be overrepresented in his or her L2 productions. As explained in the dataset section above, this work focuses on 2 groups of non-native speakrs whose native language's origin is either Romance or Germanic. Following the hypothesis, we expect to see higher frequencies of cognates from Germanic/Romance origin in the Germanic/Romance users group posts respectively, decreasing in correlation with the level of English proficiency, down to the point of frequencies similar to those of native speakrs.
-To model the use of cognates and to examine the tendency towards Germanic or Romance cognates, we computed a normalized count for each user and for each synonym set. 
-For example, for the synonym set \emph  thankful (from Germanic origin) and \emph grateful (from Romance Origin)   the count for a  user from Germany (Aunvilgod) was 8 for the Germanic word and 3 for the Romance word, then the normalized count will be ~0.727 and ~0.273 for Germanic and Romance cognates, respectively.
+As shown by \citet{TACL1403}, words that have  cognates in the non-native speaker's L1 tend to be overrepresented in his or her L2 productions. We focus on two groups of non-native speakers whose native language belong to either the Romance or the Germanic family. Our hypothesis implies that authors whose L1 is Germanic will use more Germanic cognates, whereas authors with a Romance background will overuse Romance cognates; and that this tendency will decrease with the level of English proficiency, down to the point of frequencies similar to those of native speakers.
+
+To model the use of cognates and to examine the tendency towards Germanic or Romance cognates, we compute, for each author $i$ and each synonym set $s$, a normalized count that reflects the proportions in which $i$ uses the words in $s$. 
+For example, for the synonym set \textnl{\{thankful, grateful\}} (where the former is Germanic and the latter is Romance), a specific author used \textnl{thankful} 8 times and \textnl{grateful} 3 times; the normalized count is then $8/11$ for Germanic, $3/11$ for Romance. 
+
 For exploring the correlation between the use of cognates and the level of English proficiency, a benchmark of ``good'' English will be calculated based on the lexical selections made by the native authors group. The benchmark is defined as the average of the Germanic/Romance tendency---represented by the normalized count---across all the native authors. This benchmark is calculated for each synonym set independently. 
-Once the benchmark is set for a certain synonym set, the lexical choice of each non-native author can be represented by the directed (-/+) distance from that benchmark. The direction is defined arbitrarily to be positive for Germanic and negative for Romance over-representation, respectively.  The deviation from the benchmark as a function of the user proficiency level will provide an indication of the validity of the research hypothesis. 
-For example, for the synonym set \emph mindless (from Germanic origin) and \emph senseless (from Romance Origin), native speakers average preference towards \emph mindless (germanic word) is ~0.7098 (calculated ad the average normalized count over all native speakers). This is number is the benchmark from which the non-native speaker deviation will be calculated. And so for a single non-native user from Denmark (dalsgaard) who's germanic normalized count for the same synonym set is ~0.889, the deviation from the threshold is 0.889 -0.7098 = 0.1792. For a different user, from France (CH4F) who used the germanic and romance word equaly - i.e. normalized count = 0.5, the diversion from the threshond will be 0.5 - 0.7098  = -0.2098.
 
+Once the benchmark is set for a certain synonym set, the lexical choice of each non-native author can be represented by the directed (-/+) distance from that benchmark. The direction is defined arbitrarily to be positive for Germanic and negative for Romance over-representation.  The deviation from the benchmark as a function of the user proficiency level will provide an indication of the validity of the research hypothesis. 
 
+For example, for the synonym set \textnl{\{mindless,senseless\}} (again, the former is Germanic and the latter Romance), native speakers average preference towards \textnl{mindless} is~0.7098; this number is the benchmark from which the non-native speaker deviation will be calculated. For a specific non-native author from Denmark (\textit{dalsgaard}) whose Germanic normalized count for the same synonym set is~0.889, the deviation from the threshold is $0.889-0.7098 = 0.1792$. For a different author from France (\textit{CH4F}) who used the Germanic and Romance word equally (i.e., the normalized count is 0.5), the diversion from the threshold will be $0.5 - 0.7098  = -0.2098$.
+
+\note{And then what? What will you do with these distances? You don't have to know all the details, but provide at least the general idea.}
 
 \section{Preliminary Results}
 
