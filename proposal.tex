@@ -4,6 +4,9 @@
 \usepackage{paralist}
 \usepackage[round]{natbib}
 \usepackage{color}
+\usepackage{graphicx}
+\usepackage{float}
+
 
 \newcommand{\textnl}{\textsl}
 
@@ -72,24 +75,27 @@ We use several commonly accepted measures for assessing the proficiency level of
 
 \subsubsection{Lexical and psycholinguistic measures}
 
-Lexical measures include lexical richness, defined as type-token ratio (TTR); average age-of-acquisition (in years) of lexical items \citep{Kuperman2012} and mean word rank, where the rank was retrieved from a list of the entire Reddit dataset vocabulary, sorted by word frequency in the corpus \citep{TACL1403}.  In addition, we also examined the psycholinguistic measure of mean naming reaction time (in Milliseconds), based on a list generated from the English Lexicon Project \citep{Balota2007}. These measures were calculated on a random sample of~10000 tokens for each author. As L2-Reddit is a based on highly fluent authors, similar scores were obtained for natives and non-natives for most of the measures. However, TTR showed statistically significant differences (p-value $<0.05$) between the 2 groups and will be used for analyzing the results, as described in the methodology section below.
+Lexical measures include lexical richness, defined as type-token ratio (TTR); average age-of-acquisition (in years) of lexical items \citep{Kuperman2012} and mean word rank, where the rank was retrieved from a list of the entire Reddit dataset vocabulary, sorted by word frequency in the corpus \citep{TACL1403}.  In addition, we also examined the psycholinguistic measure of mean naming reaction time (in Milliseconds), based on a list generated from the English Lexicon Project \citep{Balota2007}. These measures were calculated on a random sample of~10000 tokens for each author. As L2-Reddit is based on highly fluent authors, similar scores were obtained for natives and non-natives for most of the measures. However, TTR showed statistically significant differences ($p<0.05$) between the two populations and will be used for analyzing the results, as described in Section~\ref{sec:methodology}.
 
 
 \subsubsection{Syntactic Measures }
 
-Syntactic complexity was assessed through 5 different syntactic measures, using the \emph{L2 Syntactic Complexity Analyzer} \citep{Lu2010-Automatic}:
+Syntactic complexity was assessed through five different syntactic measures, using the \emph{L2 Syntactic Complexity Analyzer} \citep{Lu2010-Automatic}:
 
 \begin{description}
 \item[MLS] mean length of sentence (\# of words/\# of sentences), 
 \item[CT/T] complex T-unit (containing a dependent clause) to all T-units ratio (\# of complex T-units/\# of T-units)
+\item [DC/C] - dependent clauses per clause
 \item[T/S] T-units per sentence (\# of T-units/\# of sentences)
 \item[C/S] clauses per sentence (\# of clauses/\# of sentences)
 \end{description}
 
-These 5 measures are calculated on a random sample of~1000 sentences for each native and non-native author, and differences in scores between natives and non natives found to be statistically significant (p-value $<0.05$).
+\noindent
+These 5 measures are calculated on a random sample of~1000 sentences for each native and non-native author, and the differences in scores between natives and non natives were found to be statistically significant ($p<0.05$).
 
 
 \subsection{Methodology}
+\label{sec:methodology}
 
 As shown by \citet{TACL1403}, words that have  cognates in the non-native speaker's L1 tend to be overrepresented in his or her L2 productions. We focus on two groups of non-native speakers whose native language belong to either the Romance or the Germanic family. Our hypothesis implies that authors whose L1 is Germanic will use more Germanic cognates, whereas authors with a Romance background will overuse Romance cognates; and that this tendency will decrease with the level of English proficiency, down to the point of frequencies similar to those of native speakers.
 
@@ -101,14 +107,36 @@ For exploring the correlation between the use of cognates and the level of Engli
 Once the benchmark is set for a certain synonym set, the lexical choice of each non-native author can be represented by the directed (-/+) distance from that benchmark. The direction is defined arbitrarily to be positive for Germanic and negative for Romance over-representation.  The deviation from the benchmark as a function of the user proficiency level will provide an indication of the validity of the research hypothesis. 
 
 For example, for the synonym set \textnl{\{mindless,senseless\}} (again, the former is Germanic and the latter Romance), native speakers average preference towards \textnl{mindless} is~0.7098; this number is the benchmark from which the non-native speaker deviation will be calculated. For a specific non-native author from Denmark (\textit{dalsgaard}) whose Germanic normalized count for the same synonym set is~0.889, the deviation from the threshold is $0.889-0.7098 = 0.1792$. For a different author from France (\textit{CH4F}) who used the Germanic and Romance word equally (i.e., the normalized count is 0.5), the diversion from the threshold will be $0.5 - 0.7098  = -0.2098$. 
-If the hypothesis holds, we expect to see positive distances from the calculated threshold for users whose L1 is of Germanic origin (indicating overuse of the Germanic word(s) in comparison to native speakers), and negative distances for users whose L1 is of Romance Origin. For both non-native groups the absolute distance values should decrease as the level of English proficiency rises. 
 
-This analysis is strongly affected by the specific synonym set and proficiency measure and should be interpreted considering these choices. Different frequency levles might affect the analysis - for example the synonym set \textnl{\{affluence, richness\}} occours only 500 times in non-native speakers posts, while \textnl{\{attend, hang\}} has over $30,000$ occurrences, with very different frequncy level for each member of the synonym set - $8026$ occurrences of \textnl{attend} vs. $22,917$ occurrences of \textnl{hang} - another factor that might influence the analysis. 
+If the hypothesis holds, we expect to see positive distances from the calculated threshold for users whose L1 is of Germanic origin (indicating overuse of the Germanic word(s) in comparison to native speakers), and negative distances for users whose L1 is of Romance origin. For both non-native groups, we expect the absolute distance values to decrease as the level of English proficiency rises. 
+
+This analysis is strongly affected by the specific synonym set and proficiency measure and should be interpreted considering these choices. Different frequency levels might affect the analysis: for example, the synonym set \textnl{\{affluence, richness\}} occurs only 500 times in non-native speakers posts, while \textnl{\{attend, hang\}} has over $30,000$ occurrences, with very different frequency level for each member of the synonym set ($8026$ occurrences of \textnl{attend} vs.\ $22,917$ occurrences of \textnl{hang}); this is  another factor that might influence the analysis. 
 
 
 \section{Preliminary Results}
+Figure~\ref{fig:results} presents preliminary results of the analysis described in Section~\ref{sec:methodology}.
+The blue dots represent the distance of ``Germanic'' users from the native speakers threshold (the tendency towards words of Germanic origin, as defined in the previous section), and the red dots represent ``Romance'' user distances. 
+The x-axis is the proficiency level of authors according to one measure, and the y-axis stands for the distance, where the native speaker threshold is of course~0.
+ 
+Since each group has close to~500 data points (one per author), it is hard to visualize the analysis when each point is represented individually. Therefore, each of the two populations was aggregated into~25 groups, bases on their English proficiency scores in the relevant measure.
+Figure~\ref{fig:results}-left shows directed distances from native threshold for the synonym set  \textnl{\{sink, pass, lapse\}} as a function of the syntactic measure DC/C (dependent clauses per clause).
+Figure~\ref{fig:results}-right shows directed distances from native threshold for the synonym set  \textnl{\{belittle, denigrate\}} as a function of the lexical measure TTR (type token ratio).
 
-[Draw a few graphs for some of the synsets, based on the selected proficiency measures]
+The figures mathches, to some extent, our expectaion of seeing a greater prefrence towards Germanic words among ''Germanic'' users, shown by the fact that blue dots (''Germanic'' users) in general are placed higher along the y-axis compared to the red dots (''Romance'' users). In addition, although including quite a few outliers, bilinguals with higher proficiency scores (along the x-axis) seem to diverge less from the native speaker pattern (manifest by a greater for these individuals around 0 values on the y-axis). This pattern lends preliminary support to the hypothesis underlying this research proposal.
+
+\begin{figure} [bt]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{images/462-DC-C.png}		
+\ 		
+\includegraphics[width=0.45\textwidth]{images/68-TTR.png}		
+\end{center}
+\caption{Over- and under-use of Germanic words as a function of proficiency. Left: synset 462 vs.\ English syntactic proficiency measure DC/C; right: synset 68 vs.\ English Lexical proficiency measure TTR.}
+\label{fig:results}	
+\end{figure}
+
+
+
+
 
 
 \bibliographystyle{plainnat}
